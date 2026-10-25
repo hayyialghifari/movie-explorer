@@ -1,17 +1,29 @@
-# movie_explorer
+# Movie Explorer 🎬
 
-A new Flutter project.
+Aplikasi katalog film berbasis Flutter yang menggunakan TMDB API untuk menampilkan informasi film.
 
-## Getting Started
+## Fitur
+- Menampilkan daftar film.
+- Melihat detail film.
+- Mencari film.
+- Menambahkan film ke favorit.
+- Melihat daftar film favorit.
 
-This project is a starting point for a Flutter application.
+## Teknologi
+- Flutter
+- Dart
+- TMDB API
 
-A few resources to get you started if this is your first Flutter project:
+## Cara Menjalankan
+1. Clone repository ini.
+2. Jalankan `flutter pub get`.
+3. Jalankan aplikasi dengan API key TMDB:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```bash
+flutter run --dart-define=TMDB_API_KEY=API_KEY_KAMU
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ganti `API_KEY_KAMU` dengan API key TMDB milik sendiri.
+
+## Catatan
+Aplikasi ini dibuat sebagai proyek UTS Mobile Programming.
